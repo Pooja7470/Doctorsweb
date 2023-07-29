@@ -1,0 +1,988 @@
+@font-face {
+    font-family: anurati;
+    src: url(./MonumentExtended-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    overflow-x: hidden;
+   
+}
+.hero {
+    background-image: url('https://thumbs.dreamstime.com/b/doctor-medical-background-24834402.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+} 
+.word-text{
+    color: #000;
+    font-size: 20px;
+    text-shadow: 2px 3px 10px solid black;
+}
+
+
+
+ .hero-content {
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 3px 10px solid black;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.menu {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+ 
+  
+  .menu-icon {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-items a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 50px;
+    
+  }
+  .menu-items li{
+    list-style: none;
+  }
+  .menu-items a:hover{
+    color: #2980b9;
+    transition: 1s;
+  }
+ 
+.image .overlay{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 164, 0,0.5);
+
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color:#99DBF5;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+   
+}
+
+.logo h1 {
+    font-size: 40px;
+    align-items: center;
+    font-family: anurati;
+    color: #fff; 
+    
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu li {
+    display: flex;
+
+}
+
+nav .menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    transition: 0.25s linear all;
+}
+
+nav .menu li a:hover {
+    color: #DC0000;
+    text-decoration: underline;
+}
+
+
+
+main {
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+
+section h2 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+    font-family: sans-serif;
+    color: #000;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color:#c7ecee;
+    /* margin-left: 4vmax; */
+    text-shadow: 2px 2px 3px black;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color:#6C00FF;
+    box-shadow: 0 0 10px #1e0244;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.25s;
+   cursor: pointer;
+    color: #000;
+    margin-top: 20px;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.btn:hover {
+  
+    /* transform: scale(1.2); */
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgb(9, 117, 152);
+}
+
+.bg {
+    width: 100%;
+    height: 60%;
+    background: #99DBF5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading h1 {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+    margin-left: 102px;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.section-box {
+    border: 1px solid white;
+    width: 20%;
+    height: 30vh;
+    border: none;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow:  0 0 10px yellow;
+}
+
+h2 {
+    margin-left: 48px;
+}
+
+p {
+    margin-top: 10px;
+
+    font-size: 15px;
+    color: #fff;
+
+}
+
+i {
+    margin-left: 75px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.left {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: #fff;
+    
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+
+    margin-top: 50px;
+}
+
+.img2 p {
+    margin-top: 30px;
+    font-family: serif;
+    font-size: 14px;
+    width: 70%;
+    color: black;
+    font-weight: 600;
+}
+
+h2 {
+    width: 5%;
+    font-size: 10px;
+}
+
+.right {
+    width: 70%;
+   
+}
+
+h1 {
+    font-family: sans-serif;
+    align-items: center;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn4 {
+    padding: 10px 30px;
+
+    border-radius: 15px;
+    background-color: aqua;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn4:hover {
+    transform: scale(1.2);
+}
+
+p {
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.btn5 {
+    padding: 10px 30px;
+
+    border-radius: 15px;
+    background-color: aqua;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn5:hover {
+    transform: scale(1.2);
+}
+
+.btn6 {
+    padding: 10px 30px;
+
+    border-radius: 15px;
+    background-color: aqua;
+    border: none;
+}
+
+.btn6:hover {
+    transform: scale(1.2);
+}
+
+.btn7 {
+    padding: 10px 30px;
+
+    border-radius: 15px;
+    background-color: aqua;
+    border: none;
+}
+
+.btn7:hover {
+    transform: scale(1.2);
+}
+
+.gallery {
+     background-color: #99DBF5; 
+     height: 100vh; 
+     width: 100%; 
+  
+    
+
+    margin-top: 2vmax;
+
+    justify-content: center;
+   
+
+}
+
+.galleryheading {
+    color:   #000;
+    padding: 1vmax 2vmax;
+  
+    text-align: center;
+
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 7vmax;
+    margin-top: 1vmax;
+    justify-content: space-around;
+
+}
+
+.gallery-box {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.team {
+    width: 100%;
+    height: 80vh;
+ 
+    justify-content: space-between;
+    background: #99DBF5;
+
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.main-box {
+    display: flex;
+    margin-top: 2vmax;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 1px solid black;
+    background-color: #fff;
+    width: 15%;
+    height: 25vh;
+    border: none;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 1vmax;
+    width: 60%;
+    font-size: 15px;
+    color: black;
+    align-items: center;
+}
+
+.btn9 {
+    margin-left: 3vmax;
+    margin-top: 2vmax;
+    padding: 10px 20px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    background-color: rgb(62, 62, 127);
+}
+
+.btn9:hover {
+    background-color: aqua;
+}
+
+i {
+    font-size: 30px;
+    color: blue;
+    margin-top: 3vh;
+}
+
+.main-factor {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin-top: 50px;
+    padding: 20px 17px;
+    height: 70vh;
+
+}
+
+.linear-factor {
+    font-size: 15px;
+    color: #fff;
+}
+
+.linear-factor a {
+    display: flex;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.linear-factor a:hover {
+    color: #2980b9;
+
+}
+
+
+
+  
+  /* #clickable-image {
+    width: 70%;
+    height: 60%;
+    margin-left: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+   
+} */
+  
+@media (max-width:600px) {
+    .hero {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-medical-background-24834402.jpg'); 
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+      
+        justify-content: center;
+    } 
+    .word-text{
+        color: #000;
+        font-size: 16px;
+        text-shadow: 2px 3px 10px solid black;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 3px 10px solid black;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        background-color:#7ed6df;
+        transition:  0.3s ease;
+    }
+    
+    .btn:hover {
+        background-color: #555;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-items {
+        display: block;
+      }
+      .menu-icon{
+        display: flex;
+        cursor: pointer;
+        margin-left: 80vw;
+        
+      }
+    
+      .menu-items a {
+        border-bottom: 1px solid #fff;
+      }
+
+    nav {
+        width: 100%;
+        height: 10%;
+        background-color: #fff;
+        display: flex;
+        justify-content: first baseline;
+        align-items: center;
+    }
+
+    nav .logo {
+        width: 35vmax;
+
+        text-align: center;
+        align-items: center;
+       
+    }
+
+    .logo h1 {
+        align-items: center;
+        font-size: 6vmax;
+        font-weight: 100;
+        color: #fff;
+        display: none;
+    }
+
+    nav .menu {
+        width: 0vmax;
+        display: none;
+        justify-content: none;
+    }
+
+    nav .menu li {
+        display: none;
+
+    }
+
+    .icon {
+        width: 40vmax;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+        align-items: center;
+    }
+    
+    
+
+    main {
+        width: 90%;
+        height: 0vmax;
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+    } 
+    
+
+
+    section h1 {
+        font-size: 4vmax;
+        font-weight: 400;
+        font-family: sans-serif;
+        color: rgb(93, 93, 255);
+        /* margin-left: 8vmax; */
+       
+       text-shadow: 1px 1px 2px black;
+       
+       
+    }
+
+    .btn {
+        padding: 1.5vmax 5vmax;
+        background-color: aqua;
+        border-radius: 3vmax;
+
+        border: 1px solid black;
+        transition: 0.25s;
+        font-size: 2vmax;
+        margin-left: 8vmax;
+       
+
+    }
+
+    .btn:hover {
+        background-color: rgb(46, 46, 254);
+        transform: scale(1.2);
+    }
+
+    .bg {
+        width: 100%;
+        height: 70%;
+        background: #99DBF5;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .heading {
+        width: 80%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .heading .h1 {
+        font-weight: 400;
+        font-family: sans-serif;
+        color: #000;
+    }
+
+    .container {
+
+
+        width: 100%;
+        height: 50%;
+        display: flexbox;
+        justify-content: center;
+        margin-top: 10vmax;
+
+
+    }
+
+    .section-box {
+        border: 1px solid white;
+        width: 32%;
+        height: 35vmax;
+        border: none;
+        background-color: #fff;
+        flex-direction: column;
+        margin-left: 2px;
+
+
+    }
+
+    h2 {
+        margin-left: 3vmax;
+        width: 5vmax;
+    }
+
+    p {
+        margin-top: 3vmax;
+        font-size: 1vmax;
+        color: black;
+    }
+
+    i {
+        margin-left: 5vmax;
+        font-size: 5vmax;
+        color: #000;
+    }
+
+    .left {
+        width: 80%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 12vmax;
+
+    }
+
+    img {
+        width: 40vmax;
+        height: 30vmax;
+        justify-content: space-around;
+
+    }
+
+    .img2 {
+
+        margin-left: 7vmax;
+    }
+
+    .img2 p {
+        margin-top: 2vmax;
+        font-family: serif;
+        font-size: 1.5vmax;
+        width: 80%;
+        color: black;
+        font-weight: 400;
+        /* margin-left: 8vmax; */
+    }
+
+    h2 {
+        width: 90%;
+        font-size: 1.5vmax;
+
+    }
+
+    .right {
+        width: 80%;
+        margin-top: 3vmax;
+
+    }
+
+    h1 {
+        font-family: sans-serif;
+        align-items: center;
+        margin-left: 6vmax;
+        font-size: 3vmax;
+    }
+
+    p {
+
+        font-weight: 400;
+        color: black;
+        font-size: 1.5vmax;
+
+    }
+
+    .btn4 {
+        padding: 1.5vmax 3vmax;
+
+        border-radius: 5vmax;
+        background-color: aqua;
+        border: none;
+        margin-top: 3vmax;
+    }
+
+    .btn4:hover {
+        transform: scale(1.2);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.5vmax;
+        margin-top: 4vmax;
+    }
+
+    .btn5 {
+        padding: 1.5vmax 3vmax;
+
+        border-radius: 5vmax;
+        background-color: aqua;
+        border: none;
+        margin-top: 3vmax;
+    }
+
+    .btn5:hover {
+        transform: scale(1.2);
+    }
+
+    .btn6 {
+        padding: 1.5vmax 3vmax;
+        border-radius: 5vmax;
+        background-color: aqua;
+        border: none;
+    }
+
+    .btn6:hover {
+        transform: scale(1.2);
+    }
+
+    .btn7 {
+        padding: 1.5vmax 3vmax;
+
+        border-radius: 5vmax;
+        background-color: aqua;
+        border: none;
+    }
+
+    .btn7:hover {
+        transform: scale(1.2);
+    }
+
+    .gallery {
+
+        width: 100%;
+        background-color: #99DBF5; 
+        height: 240vh;
+
+        margin-top: 3vmax;
+
+        justify-content: center;
+    }
+
+    .galleryheading {
+        color: #000;
+        margin: 0vmax 10vmax;
+        margin-top: 80vmax;
+    }
+
+    .main-gallery {
+        display: flex;
+        width: 80%;
+        
+
+        margin-left: 6vmax;
+        margin-top: 2vmax;
+
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .gallery-box {
+        display: flex;
+        margin-top: 1vmax;
+        background-color: red;
+        margin-left: 25vmax;
+        width: 0%;
+        flex-wrap: wrap;
+    }
+
+    .gallery-box img {
+        width: 30vmax;
+
+    }
+
+    .team {
+        width: 100%;
+        height: 80vh;
+        margin-top: 6vmax;
+
+        justify-content: space-between;
+        background-color: #99DBF5; 
+
+    }
+
+    .headline {
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        color: #fff;
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+    .main-box {
+        display: flex;
+        margin-top: 2vmax;
+        margin-top: 5vmax;
+        justify-content: space-around;
+    }
+
+    .box1 {
+        border: 1px solid black;
+        background-color: #fff;
+        width: 20%;
+        height: 20vh;
+        border: none;
+       flex-direction: column;
+       margin-top: 0.5vmax;
+
+        justify-content: space-between;
+       
+
+    }
+
+    h2 {
+        margin-top: 1vmax;
+        width: 60%;
+        font-size: 1.3vmax;
+        color: black;
+        align-items: center;
+    }
+
+    .btn9 {
+        margin-left: 3vmax;
+        margin-top: 1vmax;
+        padding: 1vmax 1vmax;
+        font-weight: 200;
+        color: #fff;
+        border: none;
+        background-color: rgb(62, 62, 127);
+    }
+
+    .btn9:hover {
+        background-color: aqua;
+    }
+
+    i {
+        font-size: 30px;
+        color: blue;
+    }
+    .main-factor {
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+        margin-top:4vmax;
+        padding: 2vmax 2vmax;
+        height: 70vh;
+    
+    }
+    
+    .linear-factor {
+        font-size: 1.5vmax;
+        color: #fff;
+    }
+    
+    .linear-factor a {
+        display: flex;
+        text-align: center;
+        padding: 2vmax 1vmax;
+        text-decoration: none;
+        transition: 0.25s;
+        font-weight: 500;
+        color: #fff;
+    
+    }
+    
+    .linear-factor a:hover {
+        color: #2980b9;
+    
+    }
+}
